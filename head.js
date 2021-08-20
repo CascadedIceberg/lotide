@@ -15,5 +15,8 @@ const assertEqual = function(actual, expected) {
 
 module.exports = head;
 
- assertEqual(head([1, 4 ,5,"Lighthouse Labs"], ["Bootcamp",55 , 5 , 4 ]));
 
+ assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+//  assertEqual((["Hello", "Lighthouse", "Labs"]), "Hello");
+
+//  assertEqual(head([5,6,7]), 5);
