@@ -19,4 +19,4 @@ module.exports = head;
  assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 //  assertEqual((["Hello", "Lighthouse", "Labs"]), "Hello");
 
-//  assertEqual(head([5,6,7]), 5);
+//  assertEqual(head([5,6,7]), 5);q
