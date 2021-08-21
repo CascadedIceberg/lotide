@@ -11,7 +11,6 @@
 
 const assertEqual = function(actual, expected) {
  if(actual === expected){
-   console.log()
  
    console.log(`😄😄😄 --ASSERTION PASSED!--: ${actual} does equal ${expected}`);
  }else{
@@ -21,8 +20,5 @@ const assertEqual = function(actual, expected) {
 
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-//  assertEqual(1, 1);
 
 
